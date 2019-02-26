@@ -18,4 +18,3 @@ task1.coalesce(1).write.mode("overwrite").format("csv").save("s3n://aws-a0049-us
 spark.stop()
 
 
-/usr/lib/spark/bin/spark-submit ~/spark.py
